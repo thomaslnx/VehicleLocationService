@@ -21,3 +21,6 @@ For this project I used the following techs:
 
 ## Final words
 > This was a pretty funny and challenging project in which I participated. This kind of tech got my attention, so making some implementation, even being small, of such technology was pretty fun. The time given to me got me out of my comfort zone and I had to make some wise decisions to make some minimally decent implementation, to get this test done. So sometimes I made the code as simple as possible to avoid a big complexity in a short period of implementation time, but of course, with the appropriate available time it's possible to make real great things. Thanks for the opportunity, and I hope that you like my code and the way that I implemented this solution.
+
+## Sneak peek video of challenge working
+https://www.youtube.com/watch?v=jLoQU5n44X4
