@@ -20,7 +20,7 @@ class Vehicle {
   }
 }
 
-export const reportCurrentLocation = (req: Request, res: Response) => {
+export const reportCurrentLocation = async (req: Request, res: Response) => {
   const { vehicleId, latitude, longitude } = req.body
   if (!vehicleId || !latitude || !longitude) {
     return res.status(400).json({ error: "Request data invalid!"})
