@@ -1,12 +1,14 @@
-import express, { Response, Request } from 'express'
+import express from 'express'
 
-import { getVehicleLocation, reportCurrentLocation } from '../controllers/location-monitoring/getVehicleLocation.js'
+import { getVehicleLocation, reportCurrentLocation, listAllVehiclesInsideRadius } from '../controllers/location-monitoring/getVehicleLocation.js'
 
 const server = express()
 const serverPort = 3000
 
 server.use(express.json())
 server.use(express.urlencoded({ extended: true }))
+
+server.get('/list-vehicles-in-radius', listAllVehiclesInsideRadius)
 
 server.post('/report-current-location', reportCurrentLocation)
 
